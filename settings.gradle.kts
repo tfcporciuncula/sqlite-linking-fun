@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "sqlite_linking"
 include(":androidApp")
 include(":shared")
+include(":db")
