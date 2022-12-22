@@ -19,6 +19,7 @@ kotlin {
         framework {
             baseName = "shared"
             isStatic = false
+            linkerOpts.add("-lsqlite3")
             export(project(":db"))
         }
     }
