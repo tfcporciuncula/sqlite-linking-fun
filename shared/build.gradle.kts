@@ -19,6 +19,12 @@ kotlin {
         framework {
             baseName = "shared"
         }
+
+        pod("Sentry") {
+            source = git("https://github.com/getsentry/sentry-cocoa.git") {
+                tag = "7.31.5"
+            }
+        }
     }
     
     sourceSets {
