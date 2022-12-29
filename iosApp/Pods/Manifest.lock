@@ -1,16 +1,24 @@
 PODS:
-  - shared (1.0)
+  - Sentry (7.31.5):
+    - Sentry/Core (= 7.31.5)
+  - Sentry/Core (7.31.5)
+  - shared (1.0):
+    - Sentry
 
 DEPENDENCIES:
+  - Sentry (from `../shared/build/cocoapods/externalSources/git/Sentry`)
   - shared (from `../shared`)
 
 EXTERNAL SOURCES:
+  Sentry:
+    :path: "../shared/build/cocoapods/externalSources/git/Sentry"
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  shared: 07cac7993e4f05eda6b76f3a213b070947c3b79f
+  Sentry: 4c9babff9034785067c896fd580b1f7de44da020
+  shared: 7eae44525927d143d8802785657a193df5673899
 
-PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+PODFILE CHECKSUM: fbbc195d7eecde19ca12bb63075b19ea0fa3554c
 
 COCOAPODS: 1.11.2
