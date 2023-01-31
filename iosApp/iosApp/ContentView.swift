@@ -1,5 +1,6 @@
 import SwiftUI
 import shared
+import CioTracking
 
 struct ContentView: View {
 	let greet = Greeting().greeting()
