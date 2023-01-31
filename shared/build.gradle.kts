@@ -19,6 +19,10 @@ kotlin {
         framework {
             baseName = "shared"
         }
+
+        pod("CustomerIO") {
+            version = "2.0.4"
+        }
     }
     
     sourceSets {
