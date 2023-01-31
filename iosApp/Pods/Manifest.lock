@@ -1,16 +1,33 @@
 PODS:
-  - shared (1.0)
+  - CustomerIO (2.0.4):
+    - CustomerIO/Tracking (= 2.0.4)
+  - CustomerIO/Tracking (2.0.4):
+    - CustomerIOTracking (= 2.0.4)
+  - CustomerIOCommon (2.0.4)
+  - CustomerIOTracking (2.0.4):
+    - CustomerIOCommon (= 2.0.4)
+  - shared (1.0):
+    - CustomerIO (= 2.0.4)
 
 DEPENDENCIES:
   - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - CustomerIO
+    - CustomerIOCommon
+    - CustomerIOTracking
 
 EXTERNAL SOURCES:
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  shared: 07cac7993e4f05eda6b76f3a213b070947c3b79f
+  CustomerIO: 5b04253f9077afe3399c3e400e75e6819b0f1471
+  CustomerIOCommon: 1dfb940151c44dfb91a7e38096b1c21a533c1655
+  CustomerIOTracking: 09b081c9c562a39ef6841e54668ca9a6fe94f4f5
+  shared: cedab112b65b2d812fd3810ecd51536ecb121a8c
 
 PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

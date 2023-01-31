@@ -1,0 +1,6 @@
+framework module Common {
+  umbrella header "CustomerIOCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
